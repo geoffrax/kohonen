@@ -1,0 +1,6 @@
+# Not locking down versions yet, may need to do so if pushing to production
+
+numpy 
+pillow 
+flask 
+matplotlib

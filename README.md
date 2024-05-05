@@ -2,15 +2,16 @@
 Please see [kohonen.ipynb](kohonen.ipynb)
 
 To get this thing working:
-- Clone the repo.
+- Clone the repo; or
+- `docker pull geofflee01/koho:latest`
 
 ### Running Code:
 Run: 
-- `docker build -t koho .`
-- `docker run -p 5000:5000 koho`
+- `docker build -t geofflee01/koho .`
+- `docker run -p 5000:5000 geofflee01/koho`
 
 Alternatively:
-- `pip install -r requirements`
+- `pip install -r requirements.txt`
 - `python ./kohonen.py`
 
 Once the server is running, you can connect via:
